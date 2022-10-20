@@ -1,13 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="px-10">
+      <h1 class="text-3xl font-bold underline my-5">Tailwind CSS Practice</h1>
+      <div
+        class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex item-center space-x-4"
+      >
+        <div class="shrink-0">
+          <img class="h-12 w-12" src="img/chat.svg" alt="chat icon" />
+        </div>
+        <div>
+          <div class="text-xl font-medium text-black">ChitChat</div>
+          <p class="text-gray-500">You have a new message!</p>
+        </div>
+      </div>
+
+      <button
+        type="button"
+        class="bg-blue-600 text-white px-3 py-2 rounded hover:bg-blue-700"
+      >
+        Button
+      </button>
+    </div>
+  </body>
 </html>
