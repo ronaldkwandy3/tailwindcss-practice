@@ -44,5 +44,33 @@
       vitae laboriosam alias assumenda numquam sapiente iusto dignissimos harum
       vel consectetur.
     </p>
+    <hr class="my-20" />
+    <button
+      class="my-10 block mx-auto bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-inter hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300"
+    >
+      My Button
+    </button>
+    <div
+      class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md font-inter p-5"
+    >
+      <form>
+        <label for="email" class="block">
+          <span
+            class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5"
+            >Email</span
+          >
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            class="px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"
+          />
+          <p class="text-sm text-pink-700 invisible peer-invalid:visible">
+            Email tidak valid
+          </p>
+        </label>
+      </form>
+    </div>
+    <div class="mb-96"></div>
   </body>
 </html>
